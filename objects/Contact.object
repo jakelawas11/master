@@ -122,7 +122,7 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>DoNotCall</fullName>
@@ -207,7 +207,7 @@
     </fields>
     <fields>
         <fullName>MobilePhone</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -228,7 +228,7 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
