@@ -84,10 +84,12 @@
         <relationshipLabel><!-- Compliance Scan Results --></relationshipLabel>
     </fields>
     <recordTypes>
+        <description><!-- This record type is used for scan results produced by Copado. --></description>
         <label><!-- Copado --></label>
         <name>Copado</name>
     </recordTypes>
     <recordTypes>
+        <description><!-- Use this record type to capture non-Salesforce scan results. --></description>
         <label><!-- Other --></label>
         <name>Other</name>
     </recordTypes>

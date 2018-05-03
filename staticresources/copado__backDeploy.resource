@@ -1225,11 +1225,11 @@ backDeploy.calculateFileDifferences = function(jsonObject,conf){
                     backDeploy.assignCBMTabLabels(commitsBehindLabel,commitsBehindNumber);
                     $copado('[Id$=commitBehindNum]').val(commitsBehindNumber);
                     backDeploy.data.gridItems = item["filesMergedBehind"];
-                    fileDiffSize = backDeploy.data.gridItem.length;
+                    fileDiffSize = backDeploy.data.gridItems.length;
                     var fileDiffLabel = $copado('#filediff');
                     backDeploy.assignCBMTabLabels(fileDiffLabel,fileDiffSize);
                     var elem = item["filesMergedConflictBehind"];
-                    if(backDeploy.data.gridItem){
+                    if(backDeploy.data.gridItems){
                         if(conf.dataMode && conf.dataMode == 'mergeDiff'){
                             var t = backDeploy.data.gridItems;
                             backDeploy.data.gridItems = [];

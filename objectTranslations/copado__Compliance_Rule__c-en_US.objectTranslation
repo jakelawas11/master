@@ -89,10 +89,12 @@
         <name>copado__Severity__c</name>
     </fields>
     <recordTypes>
+        <description><!-- Use this record type to define scan rules run by Copado. --></description>
         <label><!-- Copado --></label>
         <name>Copado</name>
     </recordTypes>
     <recordTypes>
+        <description><!-- Use this record type to define scan rules for 3rd party systems. --></description>
         <label><!-- Other --></label>
         <name>Other</name>
     </recordTypes>
